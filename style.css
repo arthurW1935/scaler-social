@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+
+header{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+main{
+    display: flex;
+}
+
+.post-cont{
+    flex: 7;
+    background-color: aliceblue;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2{
+        font: 1.2em sans-serif;
+    }
+}
+
+.post-box{
+    padding: 1rem;
+    /* height: 40vh; */
+    width: 30vw;
+    background-color: white;
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.write-post-cont{
+}
+
+.write-post{
+    display: flex;
+    align-items: start;
+    img{
+        padding: 10px;
+    }
+    textarea{
+        width: 90%;
+        border: none;
+        resize: none;
+    }
+}
+
+.submit-post{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    button{
+        border: none;
+        border-radius: 20px;
+        width: 100px;
+        background-color: #0041ca;
+        color: white;
+
+    }
+}
+
+.feed-section{
+    flex: 5;
+    padding: 20px;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.feed-cont{
+    /* overflow-y: scroll; */
+}
+
+.feed{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+}
+
+.feed-detail{
+    width: 100%;
+}
+
+.feed-heading{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: fit-content;
+    
+
+    .user{
+        display: inline-flex;
+        align-items: center;
+    }
+    .options{
+        display: inline-flex;
+    }
+}
+
+.edit-options{
+    display: none;
+}
+
+.feed-comments-cont{
+    margin-left: 50px;
+}
+
+.comment-prompt{
+    width: 100%;
+    display: none;
+}
+
+.comment-post-cont{
+    display: flex;
+    align-items: start;
+    width: 100%;
+
+    textarea{
+        width: 100%;
+        border: none;
+        resize: none;
+    }
+}
+.comment-options{
+    display: flex;
+    justify-content: end;
+}
+
